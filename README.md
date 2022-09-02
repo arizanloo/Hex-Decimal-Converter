@@ -6,7 +6,7 @@ Hex to decimal converter: <br />
 long n = strtol(str, NULL, 16);
 sprintf_s(str, "%1d", n);
 ``` 
-Wich `n` is the entered hex code and `str` is the converted hex value as `char[]`.
+Wich `n` is the entered hex code and `str` is the converted hex value as `char[]`. <br />
 Decimal to hex converter: <br />
 ```ruby 
 sprintf_s(str, "%x", d);
